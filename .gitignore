@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+env/
+venv/
+ENV/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+*.egg-info/
+var/
+
+# Django-specific
+*.log
+*.pot
+*.bak
+local_settings.py
+db.sqlite3
+media/ # Or whatever you named your media directory
+static/ # Directory for collected static files, if generated locally for deployment
+
+# IDE and OS-specific
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment variables
+.env
+*.env
